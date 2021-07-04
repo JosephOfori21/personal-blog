@@ -1,0 +1,73 @@
+/* header section */
+* {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Vidaloka', serif;
+    
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Playfair Display", serif;
+	letter-spacing: 0.05em;
+	margin: 0.2em 0;
+	
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 25px;
+    text-shadow:2px 2px wheat;
+    
+}
+p {
+    font-size: 1em;
+}
+
+
+blockquote {
+    display: grid;
+    grid-template-columns: 200px;
+  
+}
+
+section.blog {
+    float: right;
+    position: relative;
+    top: -2px;
+    display: grid;
+    margin-top: 20px;
+    
+    
+  
+    
+}
+figcaption   {
+    font-style: italic;
+    display: grid;
+}
+blockquote {
+    font-style: italic;
+	line-height: 2;
+	letter-spacing: 0.05em;
+	padding: 10px 30px;
+    
+    
+}
+blockquote::first-letter {
+    font-size: 250px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+
+
